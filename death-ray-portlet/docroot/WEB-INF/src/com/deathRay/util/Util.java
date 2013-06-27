@@ -16,6 +16,7 @@ public class Util {
 			cal.setTime(date);
 			epoch = cal.getTimeInMillis() / 1000;
 		} catch (Exception e) {
+			
 			System.out.println(e);
 		}
 		return epoch;
