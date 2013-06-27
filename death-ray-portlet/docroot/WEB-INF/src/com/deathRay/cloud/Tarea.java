@@ -91,9 +91,7 @@ public class Tarea {
 		LookupResponse lresp = datastore.lookup(lreq.build());
 		entityFound = lresp.getFound(0).getEntity();
 
-		return util.entidadToTareaDao(entityFound);
-		
-		
+		return util.entidadToTareaDao(entityFound);		
 	}
 
 }
