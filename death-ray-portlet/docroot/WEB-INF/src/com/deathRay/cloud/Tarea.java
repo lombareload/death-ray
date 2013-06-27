@@ -92,6 +92,7 @@ public class Tarea {
 		entityFound = lresp.getFound(0).getEntity();
 
 		return util.entidadToTareaDao(entityFound);
+		
 	}
 
 }
